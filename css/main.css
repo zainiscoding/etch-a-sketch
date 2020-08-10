@@ -1,0 +1,56 @@
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 30px;
+}
+
+#btn-container {
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#etchASketch {
+    display: grid;
+    align-items: center;
+    justify-content: center;   
+}
+
+#grid-container {
+    display: grid;
+    height: 75vh;
+    width: 75vh;
+    box-sizing: border-box;
+    border: solid 1px gray;
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.gridBlock {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#gridBlock {
+    background-color: white;
+}
+
+.hovered {
+    background-color: black;
+}
+
+#paintedBlock {
+    background-color: black;
+}
